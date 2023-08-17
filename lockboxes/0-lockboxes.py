@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-
-#Task 0: Lockboxes
+"""
+Task 0: Lockboxes
+"""
 
 
 def canUnlockAll(boxes):
@@ -13,7 +14,6 @@ def canUnlockAll(boxes):
     # Start the stack with the first box
     stack = [0]  
     
-   
     while stack:
         # Get the current box from the stack
         current_box = stack.pop()  
