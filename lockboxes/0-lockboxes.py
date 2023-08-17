@@ -6,11 +6,11 @@ Task 0: Lockboxes
 
 def canUnlockAll(boxes):
     # Total number of boxes
-    n = len(boxes)  
+    n = len(boxes)
     # Initialize a list to track visited boxes
     visited = [False] * n
     # Mark the first box as visited
-    visited[0] = True 
+    visited[0] = True
     # Start the stack with the first box
     stack = [0]
 
