@@ -12,7 +12,6 @@ def isPremium(n):
             return False
     return True
 
-
 def minOperations(n):
     """
     defines minimum operations
