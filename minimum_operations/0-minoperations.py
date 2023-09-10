@@ -3,6 +3,7 @@
 Minimum Operations
 """
 
+
 def isPremium(n):
     """
     Checks if a number is premium
@@ -11,6 +12,7 @@ def isPremium(n):
         if n % i == 0:
             return False
     return True
+
 
 def minOperations(n):
     """
